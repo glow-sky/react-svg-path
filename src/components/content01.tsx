@@ -4,7 +4,7 @@ const content1 = document.querySelector('.content1');
 const content2 = document.querySelector('.content2');
 const content3 = document.querySelector('.content3');
 
-const path1 = document.querySelector('.path2') as HTMLElement;
+const path1: any = document.querySelector('.path2');
 const path2: any = document.querySelector('.path3');
 const path3: any = document.querySelector('.path4');
 
